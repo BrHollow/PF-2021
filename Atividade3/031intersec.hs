@@ -1,0 +1,1 @@
+intersec xs n = [x|x <-xs, elem x n]

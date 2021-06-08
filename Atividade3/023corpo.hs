@@ -1,0 +1,1 @@
+corpo u = reverse(tail (reverse u)) 

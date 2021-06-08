@@ -1,0 +1,1 @@
+countNeg x = length $ filter (<0) x

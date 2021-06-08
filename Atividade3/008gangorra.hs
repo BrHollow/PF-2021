@@ -1,0 +1,1 @@
+gang a1 b1 a2 b2 = if a1 * b1 == a2 * b2 then 0 else if a1 * b1 > a2 * b2 then -1 else 1

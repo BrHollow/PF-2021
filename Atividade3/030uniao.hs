@@ -1,0 +1,1 @@
+uniao xs sx = xs ++ [x|x <- sx, not (elem x xs)]

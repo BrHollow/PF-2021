@@ -1,0 +1,1 @@
+pertence n xs =  elem n xs

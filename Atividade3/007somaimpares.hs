@@ -1,0 +1,1 @@
+somaimpar xs = sum(filter odd xs)
