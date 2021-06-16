@@ -1,0 +1,1 @@
+concatena(x:xs) (y:ys) = x:y:concatena xs ys

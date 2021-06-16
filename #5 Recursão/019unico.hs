@@ -1,0 +1,1 @@
+unico a b = 1 == length (filter (==a) b)

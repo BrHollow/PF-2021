@@ -1,0 +1,1 @@
+alter x = alter (x-1) ++ [x, -x]

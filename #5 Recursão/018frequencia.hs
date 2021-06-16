@@ -1,0 +1,1 @@
+frequencia a b = sum [1 | c <- b, c == a]
