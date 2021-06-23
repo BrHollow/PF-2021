@@ -1,0 +1,1 @@
+concatmap fn xs = foldl (++) [] (map fn xs)
