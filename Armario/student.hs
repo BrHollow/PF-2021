@@ -44,17 +44,7 @@ aluguel indice armarios = case pegarCodigo indice armarios of
 -- Se o armário não estiver alugado ou se o código estiver incorreto avise utilizando o Left.
 devolucao :: Int -> Codigo -> Armarios -> Either String Armarios
 devolucao indice codigo armarios =
-  case (Map.lookup indice (Map.map snd armarios)) of
-    Nothing -> Left "Codigo Incorreto"
-    Just codCheck ->
-      if (codCheck == codigo)
-        then case pegarArmario indice armarios of
-          Left str -> Left str
-          Right armario ->
-            if (fst armario == Alugado)
-              then Right (Map.insert indice (Livre, codigo) armarios)
-              else Left "O Armario nao esta alugado"
-    else Left "Codigo Incorreto"
+ 
 
 lockers :: Armarios
 lockers =
